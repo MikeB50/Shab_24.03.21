@@ -1,0 +1,239 @@
+*{
+	box-sizing: border-box;
+	margin: 0;	
+	padding: 0;	
+}
+body{
+	font-family: "Gilroy-Medium", sans-serif;
+	font-size: 18px;
+	line-height: 22px;
+	color: #070707;
+	margin: 0;
+	bottom: 0;
+}
+.container{
+	max-width: 925px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+a, li{
+	text-decoration: none;
+	list-style: none;
+	font-family: Gilroy-Bold;
+}
+a.active{
+	color: #070707;
+}
+
+h2{
+	font-family: Gilroy-Bold;
+	font-size: 34px;
+	line-height: 42px;
+	margin: 0;
+	padding: 0;
+}
+
+.header__list{
+	display: flex;
+	justify-content: space-between;
+	padding: 33px 0;
+	border-bottom: 1px solid #828282;
+}
+.header__list-link{
+	color: #828282;
+}
+
+.top__content{
+	height: 188px;
+	position: relative;
+	width: 100%;
+}
+.top__content-name{
+	position: absolute;
+	top: 40px;
+	font-family: Gilroy-Bold;
+	font-size: 48px;
+	line-height: 59px;
+	color: #070707;
+}
+.top__content-text{
+	position: absolute;
+	top: 100px;
+	left: 45%;
+}
+.top__content-ru{
+	position: absolute;
+	right: -22px;
+	bottom: 65px;
+	font-family: Gilroy-Bold;
+	font-size: 16px;
+	line-height: 20px;
+	color: #828282;
+	transform: rotate(-90deg);
+}
+.top__content-eng{
+	color: #070707;
+}
+.photo-1{
+	display: block;
+	max-width: 100%;
+	margin: 0 auto;
+	margin-bottom: 104px;
+}
+.photo-2{
+	display: none;
+}
+
+.about__inner-adaptiv{
+	display: none;
+}
+
+.about__inner{
+	text-align: center;
+	background: #F6F6F6;
+}
+
+.about__logo{
+	padding: 120px 0 18px;
+}
+.about__item{
+	margin-bottom: 50px;
+}
+.about__item:last-child{
+	padding-bottom: 110px;
+}
+
+
+.skills__top{
+	text-align: center;
+	margin-bottom: 84px;
+}
+.skills__logo{
+	padding: 90px 0 70px;
+}
+
+.skills__items{
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 110px;
+	flex-wrap: wrap;
+}
+.skills__item{
+	text-align: center;
+	max-width: 167px;
+	margin: 20px 10px;
+}
+.skills__item-icon{
+	margin: 0 auto;
+	margin-bottom: 24px;
+}
+.skills__item-name{
+	margin-bottom: 40px;
+	font-family: Gilroy-Bold;
+	font-size: 14px;
+	line-height: 17px;
+	color: #828282;
+}
+.skills__item-name-last{
+	margin-bottom: 56px;
+}
+img .zvezda{
+	max-width: inherit;
+}
+
+.fon{
+	background: #F6F6F6;
+}
+.portfolio__logo{
+	padding: 113px 0 47px;
+	text-align: center;
+}
+.portfolio__foto,
+.reebok__foto,
+.braun__foto{
+	display: block;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.portfolio__title,
+.reebok__title,
+.braun__title-link{
+	display: block;
+	font-family: Gilroy-Medium;
+	font-size: 18px;
+	line-height: 22px;
+	color: #070707;
+	margin: 45px 0 100px;
+	text-align: center;
+}
+.braun__title-link{
+	margin-bottom: 0;
+}
+.braun__title{
+	padding-bottom: 100px;
+}
+
+.contacts__link{
+	display: block;
+	font-family: Gilroy-Bold;
+	font-size: 34px;
+	line-height: 42px;
+	text-align: center;
+	color: #070707;
+	margin: 114px 0 20px;
+}
+.contacts__title{
+	display: block;
+	font-family: Gilroy-Medium;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	color: #070707;
+	margin-bottom: 30px;
+}
+.contacts__btn{
+	display: block;
+	width: 180px;
+	margin: 0 auto;
+	background: #070707;
+	color: #fff;
+	padding: 12px 29px;
+	margin-bottom: 86px;
+	border-radius: 20px;
+}
+.contacts__icon{
+	display: flex;
+	max-width: 342px;
+	margin: 0 auto 45px;
+	justify-content: space-between;
+
+}
+.contacts__text{
+	display: block;
+	text-align: center;
+	padding-bottom: 123px;
+}
+
+
+.menu__btn{
+	display: none;
+	width: 33px;
+	height: 26px;
+	padding: 10px;
+	box-sizing: initial;
+}
+.btn-item{
+	height: 4px;
+	width: 100%;
+	background-color: #000;
+}
+
+
+#header__menu-adaptiv{
+	display: none;
+}
+
+#header__menu-adaptiv:target{
+	display: block;
+}

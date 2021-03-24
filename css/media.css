@@ -1,0 +1,151 @@
+@media (max-width: 480px){
+
+	#header__menu-adaptiv{
+		position: absolute;
+		left: 0;
+		right: 0;
+		z-index: 10;
+		width: initial;
+	}
+	.header__list-adaptiv{
+		height: 812px;
+		background-color: #fff;
+		padding: 66px 0 0 26px;
+	}
+	.menu__btn{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		position: absolute;
+		top: 70px;
+		right: 0px;
+	}
+
+	.header_list-item{
+		font-size: 34px;
+		line-height: 42px;
+		margin-bottom: 68px;
+	}
+
+	.close{
+	position: absolute;
+	top: 66px;
+	right: 28px;
+	}
+	.close a img{
+		padding: 5px;
+	}
+	.re{
+	position: absolute;
+	top: 610px;;
+	right: 28px;
+	}
+
+
+
+
+	.top__content{
+		max-width: 317px;
+		height: inherit;
+		margin: 0 auto;
+	}
+	.top__content-name{
+		padding-top: 65px;
+		display: inline-block;
+		position: static; 
+		font-size: 42px;
+		line-height: 48px;
+	}
+	.top__content-text{
+		position: static;
+		display: block;
+		font-size: 16px;
+		line-height: 20px;
+		padding: 23px 0 37px;
+	}
+	.header__list,
+	.top__content-ru,
+	.photo-1{
+		display: none;
+	}
+	.photo-2{
+		display: block;
+		max-width: 100%;
+		margin: 0 auto 50px;
+	}
+	h2{
+		font-size: 32px;
+		line-height: 40px;
+	}
+	.about__item{
+		font-size: 16px;
+		line-height: 20px;
+		margin-bottom: 30px;
+	}
+	.about__logo{
+		padding-top: 50px;
+	}
+	.about__item:last-child {
+    padding-bottom: 50px;
+	}
+
+	.about__inner{
+		display: none;
+	}
+	.about__inner-adaptiv{
+		display: block;
+		text-align: center;
+		background: #F6F6F6;
+	}
+	.skills__top{
+		margin-bottom: 24px;
+	}
+	.skills__items{
+		flex-wrap: wrap;
+	}
+	.skills__logo{
+	padding: 0 0 20px;
+	}
+}
+
+
+
+@media (max-width: 414px){
+	.skills__items{
+		flex-direction: column;
+		/*display: block;*/
+		padding-bottom: 30px;
+	}
+	.skills__item{
+		display: block;
+		margin: 0 auto;
+	}
+	a.title__adaptive {
+		font-size: 16px;
+		margin: 15px 0 50px;
+	}
+	.portfolio__logo {
+		padding: 40px 0 30px;
+	}
+	.contacts__link{
+	font-size: 24px;
+	margin: 50px 0 20px;
+	}
+	.braun__title{
+	padding-bottom: 1px;
+	}
+	.contacts__title{
+	font-size: 16px;
+	margin-bottom: 20px;
+	}
+	.contacts__icon{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto 15px;
+	justify-content: space-around;
+	}
+	.contacts__text{
+	padding-bottom: 60px;
+	}
+
+}
